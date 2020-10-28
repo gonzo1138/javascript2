@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2cefdd8d-da94-4401-80f8-e4eb75264fbc" name="Default Changelist" comment="" />
+    <list default="true" id="2cefdd8d-da94-4401-80f8-e4eb75264fbc" name="Default Changelist" comment=".">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +27,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -39,14 +44,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603888259565</updated>
-      <workItem from="1603888261012" duration="3072000" />
+      <workItem from="1603888261012" duration="3364000" />
+      <workItem from="1603898819538" duration="1367000" />
     </task>
+    <task id="LOCAL-00001" summary=".">
+      <created>1603898691344</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603898691344</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="697" y="354" width="516" height="323" key="#Notifications" timestamp="1603898550199">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="697" y="354" width="516" height="323" key="#Notifications/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1603898550199" />
     <state x="748" y="311" width="413" height="409" key="#Web_Browsers" timestamp="1603897420467">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -63,9 +85,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="756" y="227" width="398" height="577" key="Github.UntrackedFilesDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1603898459852" />
-    <state x="464" y="155" key="SettingsEditor" timestamp="1603888267965">
+    <state x="464" y="155" key="SettingsEditor" timestamp="1603898544492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="464" y="155" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1603888267965" />
+    <state x="464" y="155" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1603898544492" />
   </component>
 </project>

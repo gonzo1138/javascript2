@@ -72,6 +72,9 @@ html, body{
 	z-index: 300;
 	height: 30%;
 	width: 30%;
+	display: flex;
+	justify-content: center; /*space-around !*/
+	align-items: center;
 }
 
 button {

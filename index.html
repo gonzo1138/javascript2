@@ -6,10 +6,18 @@
 		<title>Seitentitel</title>
 
 		<script>
+			// Variante 1
 			function fenster(){
 				window.alert("Test!");
 			}
 
+			// Variante 2
+			window.addEventListener("load", initial);			// Scriptcode (initial) wird erst nach dem DOM geladen,
+			function initial(){									// damit das Folgende danach zur Verfügung steht:
+				let myButton = document.getElementById("knopf");// holen des Button-Elements und übergeben an eine Variable
+				myButton.addEventListener("click", function (){window.alert("Test!!")})	// Registrieren des Click-Events und
+												// '-> Ausführung einer anonymen Kurzfunktion
+			}
 		</script>
 
 
@@ -20,10 +28,12 @@
 		<div id="box1" class="boxes"></div>
 		<div id="box2" class="boxes">
 			<div id="innerBox" class="boxes">
-				<button onclick="fenster()">Test</button>
+				<button ID="knopf">Test2</button>	<!-- Variante 2 -->
 			</div>
 		</div>
-		<div id="box3" class="boxes"></div>
+		<div id="box3" class="boxes">
+				<button onclick="fenster()">Test1</button>	<!-- Variante 1 (veraltet/unprofessionell)-->
+		</div>
 		<div id="box4" class="boxes"></div>
 	
 	</body>
